@@ -17,7 +17,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "fluent-plugin-sort"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.authors = ["Project Hatohol"]
   spec.email = ["project.hatohol@gmail.com"]
   spec.summary = "A Fluentd plugin that sorts buffered messages"
