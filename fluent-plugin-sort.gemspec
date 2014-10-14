@@ -27,7 +27,6 @@ Gem::Specification.new do |spec|
   spec.license = "LGPL-2.1+"
 
   spec.files = ["README.md", "Gemfile", "#{spec.name}.gemspec"]
-  spec.files += [".yardopts"]
   spec.files += Dir.glob("lib/**/*.rb")
   spec.files += Dir.glob("sample/**/*")
   spec.files += Dir.glob("doc/text/**/*")
@@ -38,7 +37,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency("rake")
   spec.add_development_dependency("bundler")
-  spec.add_development_dependency("packnga", ">= 0.9.6")
   spec.add_development_dependency("test-unit")
-  spec.add_development_dependency("redcarpet")
 end
